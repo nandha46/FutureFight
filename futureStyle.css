@@ -2,18 +2,40 @@
     border: 0px;
     padding: 0px;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 
 .container{
+}
+
+.card{
+    /* border:grey solid 2px; */
+    box-shadow: 5px 10px 18px #888888;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 10px;
+
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+.main-container{
+    background-image: url(./resources/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-color: #cccccc;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     border: 2px solid blue;    
-}
+    justify-content: center;
+    justify-items: center;
 
-.card{
-    border:grey solid 2px;
-    width: 22%;
-    box-shadow: 5px 10px 18px #888888;
-    padding: 2%;
-    margin-top: 3%;
 }
